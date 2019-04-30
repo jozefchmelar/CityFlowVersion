@@ -4,9 +4,9 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
-plugins {
-    id 'com.gladed.androidgitversion' version '0.4.9'
-}
+apply plugin: "com.gladed.androidgitversion"
+
+
 android {
     compileSdkVersion 28
     defaultConfig {
