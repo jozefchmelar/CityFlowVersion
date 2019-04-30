@@ -10,5 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         app_version.text = "${BuildConfig.VERSION_NAME}  ${BuildConfig.VERSION_CODE} "
+        // interstellar travel feature implemented
     }
 }
